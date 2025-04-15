@@ -1,29 +1,3 @@
-Autocorrected to cooperative
-Conversation opened. 1 read message.
-
-Skip to content
-Using Gmail with screen readers
-1 of 25,275
-index.html
-Inbox
-Amandla Shitaleni <amandlas6@gmail.com>
-	
-Attachments1:41 PM (2 hours ago)
-	
-to me
-
-
-
-
-
-
-Sent from my iPhone
- 2 Attachments  •  Scanned by Gmail
-Anti-virus warning
-
-– 1 attachment contains a virus or blocked file. Downloading this attachment is disabled.
-	
-
 document.addEventListener("DOMContentLoaded", loadTodos);
 
 
@@ -171,6 +145,3 @@ function loadTodos() {
   renderTodos();
 
 }
-
-script.js
-Displaying script.js.
