@@ -8,22 +8,18 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+ 
+  <link rel="manifest" href="manifest.json">
+
+  <meta name="theme-color" content="#000000"/>
+
   <link rel="stylesheet" href="style.css">
 
   <title>Enhanced To-Do App</title>
 
 </head>
   
-  <script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/Group6/sw.js')  // Update path if needed
-        .then(reg => console.log('Service Worker registered!'))
-        .catch(err => console.log('SW failed: ', err));
-    });
-  }
-</script>
-  
+ 
 <body>
 
   <div class="container">
@@ -37,12 +33,21 @@
     <ul id="todo-list"></ul>
 
   </div>
-
-
+ <script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/Group6/sw.js')  // Update path if needed
+        .then(reg => console.log('Service Worker registered!'))
+        .catch(err => console.log('SW failed: ', err));
+    });
+  }
+</script>
 
   <script src="script.js"></script>
 
 </body>
+
+
 
 </html>
 
